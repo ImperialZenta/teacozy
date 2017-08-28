@@ -1,0 +1,123 @@
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  z-index: 5;
+  width: 100%;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+.TeaCozyLogoBox {
+  display: flex;
+  width: auto;
+  margin-left: 10px;
+}
+
+/* Main Body Block */
+.TeaCozyMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+/* Tea Cozy Mission */
+.TeaMission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+}
+
+.TeaMissionBanner {
+  display: block;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+}
+
+/* Tea of the Month Section */
+.TeaOfTheMonth {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+.TeaOfTheMonthBanner {
+  display: block;
+}
+
+.TeaOfTheMonthBanner h2 {
+  margin: 10px 10px;
+}
+
+.TeaOfTheMonthBanner h4 {
+  margin: 10px 10px;
+}
+
+.TeaOfTheMonthRow {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+
+}
+
+.TeaBox {
+  display: block;
+  height: 200px;
+  width: 300px;
+}
+
+.TeaBox span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.TeaBox img {
+  display: block;
+  height: 200px;
+  margin: 10px;
+}
+
+/* Location Section */
+.TeaLocation {
+
+}
+
+footer {
+
+}
