@@ -54,7 +54,6 @@ nav span {
 /* Main Body Block */
 .TeaCozyMain {
   display: flex;
-  width: 1200px;
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
@@ -65,6 +64,7 @@ nav span {
 .TeaMission {
   display: flex;
   height: 700px;
+  width: 1200px;
   align-items: center;
   background-image: url("../../resources/images/img-mission-background.jpg");
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ nav span {
 .TeaMissionBanner {
   display: block;
   background-color: black;
-  text-align: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -83,7 +83,7 @@ nav span {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
+  width: 1000px;
   justify-content: center;
   padding: 70px 0 0 0;
 }
@@ -101,7 +101,6 @@ nav span {
 }
 
 .TeaOfTheMonthRow {
-  width: 1000px;
   display: flex;
   justify-content: center;
 }
@@ -130,21 +129,26 @@ nav span {
 /* Location Section */
 .TeaLocation {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   align-items: center;
-  background-image: url("../../resources/images/img-locations-background.jpg");
-  min-height: 500px;
   width: 1200px;
-  padding: 140px 0 0 0;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  min-height: 500px;
   margin: 40px 0 0 0;
+  padding: 70px 0 0 0;
 }
 
 .TeaLocation h2 {
   margin: 0;
 }
 
-.TeaAddressBox {
+.TeaAddressRow {
   display: flex;
+  line-height: 1.56em;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   margin: 15px 20px;
   opacity: 1;
@@ -155,7 +159,7 @@ nav span {
   flex-direction: column;
   align-items: center;
   width: 300px;
-  height: 200px;
+  padding: 15px;
   margin: 0 20px;
 }
 
