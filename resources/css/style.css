@@ -1,16 +1,25 @@
-h2, h3, h4 {
+html {
+  color: seashell;
+}
+
+a {
+  color: seashell;
+}
+
+h3, h4 {
   margin: 0;
   padding: 10px;
 }
 
 body {
   background-color: black;
-  color: seashell;
   text-align: center;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   opacity: 0.9;
   margin: 0;
+  padding: 0;
+  overflow: scroll;
 }
 
 header {
@@ -45,18 +54,20 @@ nav span {
 /* Main Body Block */
 .TeaCozyMain {
   display: flex;
+  width: 1200px;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   padding-top: 70px;
+  margin: 0 auto;
 }
 
 /* Tea Cozy Mission */
 .TeaMission {
   display: flex;
   height: 700px;
-  width: 1200px;
   align-items: center;
   background-image: url("../../resources/images/img-mission-background.jpg");
+  background-repeat: no-repeat;
 }
 
 .TeaMissionBanner {
@@ -69,10 +80,12 @@ nav span {
 /* Tea of the Month Section */
 .TeaOfTheMonth {
   display: flex;
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
-  text-align: center;
+  justify-content: center;
+  padding: 70px 0 0 0;
 }
 
 .TeaOfTheMonthBanner {
@@ -90,15 +103,22 @@ nav span {
 .TeaOfTheMonthRow {
   width: 1000px;
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 70px;
-
+  justify-content: center;
 }
 
 .TeaBox {
+  justify-content: space-around;
+  margin: 15px 15px 10px 15px;
+}
+
+.TeaBox img {
   display: block;
   height: 200px;
-  width: 300px;
+}
+
+.Teabox h4 {
+  padding: 0;
+  margin: 10px;
 }
 
 .TeaBox span {
@@ -107,17 +127,46 @@ nav span {
   text-align: center;
 }
 
-.TeaBox img {
-  display: block;
-  height: 200px;
-  margin: 10px;
-}
-
 /* Location Section */
 .TeaLocation {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  min-height: 500px;
+  width: 1200px;
+  padding: 140px 0 0 0;
+  margin: 40px 0 0 0;
+}
 
+.TeaLocation h2 {
+  margin: 0;
+}
+
+.TeaAddressBox {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+.TeaLocationBox {
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin: 0 20px;
+}
+
+.TeaLocationBox h4 {
+  display: block;
+}
+
+#contact{
+  height: 200px;
 }
 
 footer {
-
+  margin-left: 20px;
 }
